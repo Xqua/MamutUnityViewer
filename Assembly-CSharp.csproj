@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{843A950D-B56A-C2FC-7989-4353ECB13549}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_LINUX;PLATFORM_STANDALONE;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Data\DataRelationEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Data\DataSetGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Data\DataSetGraphExtensions.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Data\DataSetGraphPopulatorAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\AllwaysTrueConditionExpression.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\Arc.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\IArc.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\IConditionExpression.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\IdentityExpression.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\IExpression.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\IMutablePetriNet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\IPetriGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\IPetriNet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\IPetriVertex.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\IPlace.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\ITransition.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\PetriGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\PetriNet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\PetriNetSimulator.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\Place.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph.Petri\Transition.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\AdjacencyGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\AlgorithmBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\AlgorithmEventHandler.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\AlgorithmExtensions.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\CentralityApproximationAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Cliques\BronKerboshMaximumCliqueAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Cliques\MaximumCliqueAlgorithmBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ComputationState.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Condensation\CondensationGraphAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Condensation\CondensedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Condensation\EdgeMergeCondensationGraphAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Condensation\MergedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ConnectedComponents\ConnectedComponentsAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ConnectedComponents\IncrementalConnectedComponentsAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ConnectedComponents\StronglyConnectedComponentAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ConnectedComponents\WeaklyConnectedComponentsAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Contracts\IAlgorithmContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Contracts\IComputationContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\DistanceRelaxers.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\EulerianTrailAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Exploration\CloneableVertexGraphExplorerAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Exploration\ITransitionFactory.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Exploration\TransitionFactoryImplicitGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IComputation.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IConnectedComponentAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IDistanceRecorderAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IDistanceRelaxer.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IEdgeColorizerAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IEdgePredecessorRecorderAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IEndPathEdgeRecorderAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ITreeBuilderAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IUndirectedTreeBuilderAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IUndirectedVertexPredecessorRecorderAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IVertexColorizerAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IVertexPredecessorRecorderAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\IVertexTimeStamperAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\LengauerTarjanDominatorAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MaximumBipartiteMatchingAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MaximumFlow\AllVerticesGraphAugmentorAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MaximumFlow\BipartiteToMaximumFlowGraphAugmentorAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MaximumFlow\EdmondsKarpMaximumFlowAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MaximumFlow\GraphAugmentorAlgorithmBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MaximumFlow\GraphBalancingAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MaximumFlow\MaximumFlowAlgorithmBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MaximumFlow\MultiSourceSinkGraphAugmentorAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MaximumFlow\ReverseEdgeAugmentorAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MinimumSpanningTree\IMinimumSpanningTreeAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\MinimumSpanningTree\KruskalMinimumSpanningTreeAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\Contracts\IObserverContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\DisposableAction.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\EdgePredecessorRecorderObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\EdgeRecorderObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\IObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\UndirectedVertexDistanceRecorderObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\UndirectedVertexPredecessorRecorderObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\VertexDistanceRecorderObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\VertexPredecessorPathRecorderObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\VertexPredecessorRecorderObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\VertexRecorderObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Observers\VertexTimeStamperObserver.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\PageRankAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomGraphFactory.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\CyclePoppingRandomTreeAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\IEdgeChain.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\IMarkovEdgeChain.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\MarkovEdgeChainBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\NormalizedMarkovEdgeChain.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\RandomWalkAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\RoundRobinEdgeChain.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\VanishingWeightedMarkovEdgeChain.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\WeightedMarkedEdgeChain.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RandomWalks\WeightedMarkovEdgeChainBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RankedShortestPath\HoffmanPavleyRankedShortestPathAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RankedShortestPath\RankedShortestPathAlgorithmBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RootedAlgorithmBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\RootedSearchAlgorithmBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\BestFirstFrontierSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\BidirectionalDepthFirstSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\BreadthFirstSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\DepthFirstSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\EdgeDepthFirstSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\HeightFirstSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\ImplicitDepthFirstSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\ImplicitEdgeDepthFirstSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\UndirectedBreathFirstSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Search\UndirectedDepthFirstSearchAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Services\IAlgorithmComponent.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Services\IAlgorithmServices.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Services\ICancelManager.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\Services\IService.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ShortestPath\AStartShortestPathAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ShortestPath\BellmanFordShortestPathAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ShortestPath\DagShortestPathAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ShortestPath\DijkstraShortestPathAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ShortestPath\FloydWarshallAllShortestPathAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ShortestPath\ShortestPathAlgorithmBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ShortestPath\UndirectedDijkstraShortestPathAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\ShortestPath\UndirectedShortestPathAlgorithmBase.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\TarjanOfflineLeastCommonAncestorAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\TopologicalSort\SourceFirstTopologicalSortAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\TopologicalSort\TopologicalSortAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\TopologicalSort\UndirectedFirstTopologicalSortAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Algorithms\TopologicalSort\UndirectedTopologicalSortAlgorithm.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\ArrayAdjacencyGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\ArrayBidirectionalGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\ArrayUndirectedGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\BidirectionAdapterGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\BidirectionalGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\BidirectionalMatrixGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\BinaryHeap.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\BinaryQueue.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\EdgeEdgeDictionary.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\EdgeList.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\FibonacciHeap.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\FibonacciQueue.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\ForestDisjointSet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\IDisjointSet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\IEdgeList.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\IPriorityQueue.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\IQueue.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\IVertexEdgeDictionary.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\Queue.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\SoftHeap.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\VertexEdgeDictionary.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Collections\VertexList.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\CompressedSparseRowGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\Collections\IDisjointSetContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\Collections\IEdgeListContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\Collections\IVertexEdgeDictionaryContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\DummyContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\EnumerableContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\GraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IBidirectionalGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IBidirectionalIncidenceGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\ICloneableEdgeContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IEdgeContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IEdgeListGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IEdgeSetContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IImplicitGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IImplicitUndirectedGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IImplicitVertexSetContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IIncidenceGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IMutableBidirectionalGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IMutableEdgeListGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IMutableGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IMutableIncidenceGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IMutableUndirectedGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IMutableVertexAndEdgeSetContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IMutableVertexListGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IMutableVertexSetContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IUndirectedEdgeContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IUndirectedGraphContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Contracts\IVertexSetContract.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\CreateEdgeDelegate.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\CreateVertexDelegate.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\DelegateBidirectionalIncidenceGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\DelegateImplicitGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\DelegateImplicitUndirectedGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\DelegateIncidenceGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\DelegateUndirectedGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\DelegateVertexAndEdgeListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Edge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\EdgeEdgeEventArgs.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\EdgeEventArgs.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\EdgeExtensions.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\EdgeFactory.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\EdgeIdentity.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\EdgeListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\EdgePredicate.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Enumerable.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\EquatableEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\FuncDelegates.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\GraphColor.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\GraphExtensions.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\HashCodeHelper.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IBidirectionalGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IBidirectionalIncidenceGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\ICloneableEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IdentifiableEdgeFactory.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IdentifiableVertexFactory.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IEdgeListAndIncidenceGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IEdgeListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IEdgeSet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IHierarchy.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IHyperEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IImplicitGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IImplicitUndirectedGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IImplicitVertexSet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IIncidenceGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IMutableBidirectionalGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IMutableEdgeListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IMutableGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IMutableIncidenceGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IMutableUndirectedGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IMutableVertexAndEdgeListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IMutableVertexAndEdgeSet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IMutableVertexListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IMutableVertexSet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\ITagged.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IUndirectedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IUndirectedGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IVertexAndEdgeListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IVertexListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\IVertexSet.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\NegativeCycleGraphException.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\NegativeWeightException.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\NonAcyclicGraphException.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\NonStronglyConnectedGraphException.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\ParallelEdgeNotAllowedException.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\FilteredBidirectionalGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\FilteredEdgeListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\FilteredGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\FilteredImplicitGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\FilteredImplicitVertexSetGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\FilteredIncidenceGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\FilteredUndirectedGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\FilteredVertexAndEdgeListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\FilteredVertexListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\InDictionaryVertexPredicate.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\IsolatedVertexPredicate.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\ResidualEdgePrediate.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\ReversedResidualEdgePredicate.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Predicates\SinkVertexPredicate.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\QuickGraphException.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\ReversedBidirectionalListGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\SEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\SEquatableEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\SEquatableUndirectedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\SReversedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\STaggedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\STaggedEquatableEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\STaggedUndirectedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\SUndirectedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\TaggedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\TaggedEquatableEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\TaggedUndirectedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\TryFuncDelegates.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\UndirectedBidirectionalGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\UndirectedEdge.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\UndirectedEdgeEventArgs.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\UndirectedGraph.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\VertexEventArgs.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\VertexFactory.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\VertexIdentity.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\VertexIndexer.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\VertexPredicate.cs" />
+     <Compile Include="Assets\Assets\quickgraph4unity\Runtime\Reflector.QuickGraph\CodeGraph.cs" />
+     <Compile Include="Assets\Scripts\Mamut\Edge.cs" />
+     <Compile Include="Assets\Scripts\Mamut\Graph.cs" />
+     <Compile Include="Assets\Scripts\Mamut\Model.cs" />
+     <Compile Include="Assets\Scripts\Mamut\Node.cs" />
+     <Compile Include="Assets\Scripts\Mamut\Track.cs" />
+     <Compile Include="Assets\Scripts\MeshCombiner\CombineScript.cs" />
+     <Compile Include="Assets\Scripts\ReadMamutXML.cs" />
+     <Compile Include="Assets\Scripts\Renderer\ModelControler.cs" />
+     <Compile Include="Assets\Scripts\Renderer\ModelRenderer.cs" />
+     <Compile Include="Assets\Scripts\Tests\myC.cs" />
+     <Compile Include="Assets\Scripts\Tests\myC2.cs" />
+     <Compile Include="Assets\Scripts\Tests\ttest.cs" />
+     <Compile Include="Assets\Scripts\Tracks.cs" />
+     <None Include="Assets\Assets\quickgraph4unity\Dependencies\Mono4Unity\LICENSE.txt" />
+     <None Include="Assets\Assets\quickgraph4unity\License.txt" />
+     <None Include="Assets\Assets\quickgraph4unity\Runtime\QuickGraph\Diagrams\TraversalInterfaces.cd" />
+     <None Include="Assets\Assets\quickgraph4unity\Dependencies\Mono4Unity\MIT.X11.txt" />
+     <None Include="Assets\Shaders\Outlines.shader" />
+     <None Include="Assets\Shaders\OutlinesOnly.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/home/lblondel/Unity-2017.3.0p2/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="SD.Tools.BCLExtensions">
+ <HintPath>/home/lblondel/Documents/Unity3D/MamutWebGL/Assets/Libraries/SD.Tools.BCLExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="SD.Tools.Algorithmia">
+ <HintPath>/home/lblondel/Documents/Unity3D/MamutWebGL/Assets/Libraries/SD.Tools.Algorithmia.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/home/lblondel/.config/unity3d/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/home/lblondel/.config/unity3d/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/home/lblondel/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/home/lblondel/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/home/lblondel/.config/unity3d/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>/home/lblondel/.config/unity3d/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>/home/lblondel/.config/unity3d/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono4Unity">
+ <HintPath>/home/lblondel/Documents/Unity3D/MamutWebGL/Assets/Assets/quickgraph4unity/Dependencies/Mono4Unity/Mono4Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Contracts">
+ <HintPath>/home/lblondel/Documents/Unity3D/MamutWebGL/Assets/Assets/quickgraph4unity/Dependencies/CodeContracts (Silverlight)/Microsoft.Contracts.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
